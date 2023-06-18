@@ -1,0 +1,40 @@
+# ASP.NET
+*.dll
+*.exe
+*.pdb
+*.user
+*.bak
+*.cache
+*.log
+*.vs/
+*_iis_metabase.xml
+*_iis_schema.xml
+*.csproj.user
+*.publishsettings
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+obj/
+bin/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Visual Studio files
+*.suo
+*.userprefs
+*.sln.docstates
+*.tss
+*.vscode/
+
+# Resharper files
+_ReSharper*/
+*.ReSharper*
+
+# Others
+*.Cache
+*.DS_Store
+Thumbs.db
+[Tt]est[Rr]esult*/
