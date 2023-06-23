@@ -7,24 +7,24 @@ namespace CVManagementWebApp.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
         [Display(Name = "First Name")]
         [Required]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
         [Display(Name = "Last Name")]
         [Required]
         public DateTime DateOfBirth { get; set; }
         [Display(Name = "Date Of Birth")]
         [Required]
-        public string Nationality { get; set; }
+        public string? Nationality { get; set; }
         [Required]
-        public string Gender { get; set; }
+        public string? Gender { get; set; }
         [Required]
-        public Array ProgrammingSkills { get; set; }
+        public string? ProgrammingSkills { get; set; }
         [Display(Name = "Programming Skills")]
         [Required]
-        public EmailAddressAttribute Email { get; set; }
+        public string? Email { get; set; }
         [Required]
-        public IFormFile Photo { get; set; }
+        public string? Photo { get; set; }
     }
 }
